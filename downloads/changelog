@@ -1,0 +1,96 @@
+InsigniuX - x11 - 19th Dec, 2018
+Merged 4.4.168
+Enabled TTL target support
+Compiled with aosp clang 8.0.6 + gnu gcc 8.2.1
+
+InsigniuX - x10 - 6th Dec, 2018
+Merged Google-MSM-android-4.4.166
+Merged LA.UM.7.2.r1-05500-sdm660.0 kernel
+Merged LA.UM.7.2.r1.05500.sdm660.0 of qcacld-3.0, qca-wifi-host-cmn, fw-api
+Headphone Sound gain
+Huaxing panel fix
+Power button sensitivity fix
+ASB-2018-12-05
+Compiled with aosp clang 8.0.5 + gnu gcc 8.2.1
+
+InsigniuX - x9 - 28th Nov, 2018
+Merged Google-MSM-android-4.4.165
+Merged LA.UM.7.2.r1-05400-sdm660.0
+Merged LA.UM.7.2.r1-05300-sdm660.0 of qcacld-3.0, qca-wifi-host-cmn, fw-api
+Compiled with AOSP Clang 8.0.4 + GCC 8.2.1
+Compiled with O3, openMP optimisations
+
+InsigniuX - x8.1 - 11th Nov, 2018
+Merged msm android-4.4.163
+Enabled Sony ps3 controller driver
+
+InsigniuX - x8 - 10th Nov, 2018
+Merged LA.UM.7.2.r1-05200-sdm660.0
+Merged Google changes
+NTFS support
+F2FS support
+lz4 compression algorithm for zram
+Joystick drivers added (xpad for xbox controller too? yes.)
+Compiled with clang 7.0.2 + custom built buildroot toolchain.
+
+InsigniuX - x7 - 21st Oct, 2018
+Merged MSM Android-4.4.162
+exFAT supported
+
+InsigniuX - x6 - 14th Oct, 2018
+Merged MSM Android-4.4.161
+Merged LA.UM.7.2.r1-05100-sdm660.0
+BFQ is now default
+
+InsigniuX - x5 - 8th Oct, 2018
+Based on MSM Android-4.4
+Merged LA.UM.7.2.r1-04900-sdm660.0
+Enabled schedutil cpufreq governor (No EAS. Utilises c-state aware HMP for load calculations).
+Dropped Backlight dimmer & Lz4 compression for zram.
+Separate builds for MIUI and non-MIUI ROMs.
+Disabled dm-verity on /system /vendor for MIUI builds. Boots without flashing dm-verity disabler.
+Compiled with custom built Buildroot toolchain based on GCC 8.2 optimised for chips with a73.a53 based kryo cores.
+
+InsigniuX - x4.1 - 30th Sept, 2018
+Merged Linux stable v4.4.159
+Brightness issue is fixed for MIUI Roms
+MIUI support.
+
+InsigniuX - x4 - 27th Sept, 2018
+Merged LA.UM.7.2.r1-04900-sdm660.0
+Merged Linux stable v4.4.158
+lz4 compression for zram
+SdFAT
+Backlight Dimmer
+Dragon TC clang 7.0 + Bootlin GCC 8.2 Bleeding Edge
+Edited anykernel.sh to make it flashable on Wayne (Mi 6x)
+Boots on all MIUI Roms
+
+InsigniuX - X3.1 - 21st Sept, 2018
+Merged Linux stable v4.4.157
+ CFQ i/o scheduler as default
+
+InsigniuX - X3 - 15th Sept, 2018
+Merged LA.UM.7.2.r1-04500-sdm660.0
+Merged Linux stable v4.4.156
+Added BFQ I/O scheduler (Default)
+Added KCAL color control
+Vibration Control
+
+InsigniuX - X2 - 10th Sept, 2018
+Merged Linux stable v4.4.155
+Switched to DragonTC Clang 7.0
+
+InsigniuX - X2 - 9th Sept, 2018
+Based on LA.UM.7.2.r1-04400-sdm660.0
+Merged Linux stable v4.4.154
+Updated qcacld driver to LA.UM.7.2.r1-04400-sdm660.0
+
+
+InsigniuX - X1 - 30th Aug, 2018
+Based on LA.UM.7.2.r1-04000-sdm660.0
+Merged Linux stable v4.4.153
+Wireguard.
+TCP - Westwood(default)
+Power Efficient Workqueue by default
+Compiled with Clang 7.0.2
